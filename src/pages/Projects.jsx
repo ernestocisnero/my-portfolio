@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Footer, Navbar } from '../ui-components';
+import { Card, Navbar } from '../ui-components';
 
 export const Projects = () => {
     return (
@@ -14,8 +14,6 @@ export const Projects = () => {
                 <Card />
                 
             </div>
-
-            <Footer />
         </>
     )
 }

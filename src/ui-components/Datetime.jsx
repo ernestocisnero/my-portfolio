@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export const Footer = () => {
+export const Datetime = () => {
 
     const [time, setTime] = useState(new Date());
 
@@ -15,14 +15,14 @@ export const Footer = () => {
 
     return (
         <>
-            <footer className='footer'>
+            <div className='date-time'>
                 <div>
                     &#128197;
                     {time.toLocaleString()}
                     &#9201;
                     {/*also can be showed simple weather data.... */}
                 </div>
-            </footer>
+            </div>
         </>
     )
 }

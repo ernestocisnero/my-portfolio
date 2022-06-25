@@ -1,5 +1,11 @@
 import React from 'react'
-import { Navbar, Footer } from '../ui-components'
+import { Navbar } from '../ui-components'
+
+import { TbBrandJavascript } from "react-icons/tb";
+import { GrReactjs } from "react-icons/gr";
+import { ImHtmlFive } from "react-icons/im";
+import { DiCss3Full } from "react-icons/di";
+import { BsGithub } from "react-icons/bs";
 
 import './style.css';
 
@@ -12,7 +18,7 @@ export const About = () => {
                 <div class="row">
                     <div class="col-sm">
                         <h1>Hi, my name is Ernesto</h1>
-                        <h4>Web Developer and Automation Engineer.</h4>
+                        <h5>Web Developer and Automation Engineer.</h5>
                     </div>
                     <div class="col-sm">
                         <p>Hello, I’m an automation engineer, and self-taught web developer.
@@ -22,14 +28,14 @@ export const About = () => {
                 </div>
             </div>
 
-            <div class="d-flex flex-row justify-content-around about-techs">
-                <div class="p-2"><i class="fa-brands fa-html5 fa-5x"></i></div>
-                <div class="p-2"><i class="fa-brands fa-css3-alt fa-5x"></i></div>
-                <div class="p-2"><i class="fa-brands fa-js fa-5x"></i></div>
-                <div class="p-2"><i class="fa-brands fa-react fa-5x"></i></div>
+            <div class="d-flex flex-row flex-wrap justify-content-around about-techs">
+                <ImHtmlFive className='techs-icons' />
+                <DiCss3Full className='techs-icons' />
+                <TbBrandJavascript className='techs-icons' />
+                <GrReactjs className='techs-icons' />
+                <BsGithub className='techs-icons'/>
             </div>
-
-            <Footer />
+            
         </>
     )
 }

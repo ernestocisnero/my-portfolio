@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import { Datetime } from './Datetime';
 
 
 import './style.css';
@@ -11,6 +12,8 @@ export const Navbar = () => {
                 <div className="container">
                     <NavLink className="nav-item nav-link" to="/">Ernesto Cisnero</NavLink>
                 </div>
+
+                <Datetime />
 
                 <div className="navbar-collapse ">
                     <div className="navbar-nav ">
