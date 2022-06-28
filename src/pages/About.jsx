@@ -18,12 +18,14 @@ export const About = () => {
                 <div class="row">
                     <div class="col-sm">
                         <h1>Hi, my name is Ernesto</h1>
-                        <h5>Web Developer and Automation Engineer.</h5>
+                        <h5>Frontend Developer and Automation Engineer.</h5>
                     </div>
                     <div class="col-sm">
-                        <p>Hello, I’m an automation engineer, and self-taught web developer.
-                            But to be fair I like to see myself as a guy that love coding and turn ideas into projects then into solutions.
-                            Currently I'm porsuing my most near goal, becoming full time developer in a team that allows me to share my knowledge and skills with them to grow together </p>
+                        <p>Hello, I'm an automation engineer, and self-taught frontend developer.
+                            But to be fair I like to see myself as a guy who love coding and turn ideas into projects then into solutions.
+                            Currently I'm porsuing my most near goal, becoming full time developer in a team that allows me to share my knowledge 
+                            and skills with them and grow together. If you are looking for a responsible person with a huge hunger for knowledge 
+                            and desire to work, then you're in the right place. </p>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ export const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark px-3 text-uppercase">
                 <div className="container">
-                    <NavLink className="nav-item nav-link" to="/">Ernesto Cisnero</NavLink>
+                    <NavLink className="nav-item nav-link" to="/"><b>Ernesto Cisnero</b></NavLink>
                 </div>
 
                 <Datetime />

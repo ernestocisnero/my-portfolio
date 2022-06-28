@@ -5,7 +5,7 @@ export const Contact = ()=>{
     return (
         <>
         <Navbar />
-        <h1>This is the Contact</h1>
+        
         </>
     )
 }

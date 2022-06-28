@@ -17,8 +17,11 @@ export const Datetime = () => {
         <>
             <div className='date-time'>
                 <div>
-                    &#128197;
-                    {time.toLocaleString()}
+                    &#128197;{' '}
+                    <b>
+                        {time.toLocaleString()}
+
+                    </b>{' '}
                     &#9201;
                     {/*also can be showed simple weather data.... */}
                 </div>
