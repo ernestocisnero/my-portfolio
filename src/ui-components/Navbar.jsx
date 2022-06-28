@@ -10,10 +10,11 @@ export const Navbar = () => {
 
     const [darkModeState, setdarkModeState] = useState(false);
 
+    
     const handleDarkMode = ()=>{
         setdarkModeState(!darkModeState);
     }
-
+    
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark px-3 text-uppercase">
