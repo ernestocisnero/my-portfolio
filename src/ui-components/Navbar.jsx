@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
+import { DarkLightMode } from './DarkLightMode';
 import { Datetime } from './Datetime';
 
 
 import './style.css';
 
 export const Navbar = () => {
+
+    const [darkModeState, setdarkModeState] = useState(false);
+
+    const handleDarkMode = ()=>{
+        setdarkModeState(!darkModeState);
+    }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark px-3 text-uppercase">
@@ -29,6 +37,10 @@ export const Navbar = () => {
                             Contact
                         </NavLink>
                     </div>
+                </div>
+
+                <div onClick={ handleDarkMode }>
+                    <DarkLightMode darkModeRender={ darkModeState }/>
                 </div>
             </nav>
         </>

@@ -11,7 +11,12 @@
     font-size: small;
 }
 
-
+.dark-light-mode-icon{
+    width: 20px;
+    height: 20px;
+    margin:0 15px 0 15px;
+    cursor: pointer;
+}
 
 
 
