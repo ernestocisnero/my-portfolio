@@ -6,6 +6,7 @@
     outline: 1px solid rgba(255, 255, 255, 5);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
     margin-right: 25px;
+    margin-bottom: 15px;
     transition: transform .75s;
 }
 

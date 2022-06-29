@@ -9,9 +9,6 @@ export const DarkLightMode = ( {darkModeRender} ) => {
 
     if (darkModeRender) return <BsSun className='dark-light-mode-icon' />
 
-    return (
-        <>
-            <BsMoon className='dark-light-mode-icon' />
-        </>
-    )
+    return <BsMoon className='dark-light-mode-icon' />
+        
 }

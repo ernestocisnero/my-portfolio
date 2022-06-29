@@ -8,7 +8,8 @@ export const Projects = () => {
             <div className="container d-flex flex-row flex-wrap mt-4">
                 <Card />
                 <Card />
-                <Card />  
+                <Card />
+                <Card /> 
             </div>
         </>
     )
