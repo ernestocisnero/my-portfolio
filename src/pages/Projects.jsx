@@ -11,7 +11,7 @@ export const Projects = () => {
                     projectTitle={"Weather app:"}
                     projectDescription={"Simple weather app that shows you the main forecast conditions of any city."}
                     urlProject={"https://thesimplestweatherapp.netlify.app"}
-                    urlRepo={"https://github.com/ernestocisnero/my-portfolio"}
+                    urlRepo={"https://github.com/ernestocisnero/weatherpage_v1"}
                 />
 
                 <Card
