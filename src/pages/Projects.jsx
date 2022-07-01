@@ -6,10 +6,20 @@ export const Projects = () => {
         <>
             <Navbar />
             <div className="container d-flex flex-row flex-wrap mt-4">
-                <Card path={"/assets/images/weatherApp.png"}/>
-                <Card path={"/assets/images/coding-screen.jpg"}/>
-                <Card path={"/assets/images/coding-screen.jpg"}/>
-                <Card path={"/assets/images/coding-screen.jpg"}/> 
+                <Card
+                    ImgPath={"/assets/images/weatherApp.png"}
+                    projectTitle={"Weather app:"}
+                    projectDescription={"Simple weather app that shows you the main forecast conditions of any city."}
+                    urlProject={"https://ernestocisnero.netlify.com"}
+                    urlRepo={"https://github.com/ernestocisnero/my-portfolio"}
+                />
+
+                <Card
+                    ImgPath={"/assets/images/coding-screen.jpg"}
+                    projectTitle={"Example:"}
+                    projectDescription={"Example text..."}
+                    urlProject={"https://google.com"}
+                    urlRepo={"https://google.com"} />
             </div>
         </>
     )

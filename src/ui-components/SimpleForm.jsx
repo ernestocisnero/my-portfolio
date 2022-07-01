@@ -45,7 +45,7 @@ export const SimpleForm = () => {
             <textarea
                 className="form-control mt-3"
                 name="textarea"
-                placeholder="type here..."></textarea>
+                placeholder="type your message here..."></textarea>
 
             <input
                 className="btn btn-secondary mt-2"
