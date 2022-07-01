@@ -10,7 +10,7 @@ export const Projects = () => {
                     ImgPath={"/assets/images/weatherApp.png"}
                     projectTitle={"Weather app:"}
                     projectDescription={"Simple weather app that shows you the main forecast conditions of any city."}
-                    urlProject={"https://ernestocisnero.netlify.com"}
+                    urlProject={"https://thesimplestweatherapp.netlify.app"}
                     urlRepo={"https://github.com/ernestocisnero/my-portfolio"}
                 />
 
