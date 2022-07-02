@@ -7,7 +7,9 @@ import { ImHtmlFive } from "react-icons/im";
 import { DiCss3Full } from "react-icons/di";
 import { BsGithub } from "react-icons/bs";
 
+
 import './style.css';
+import { DroppingWordAnimation } from '../ui-components/DroppingWordAnimation';
 
 export const About = () => {
     return (
@@ -18,7 +20,8 @@ export const About = () => {
                 <div className="row">
                     <div className="col-sm">
                         <h1>Hi, my name is Ernesto</h1>
-                        <h5>Frontend Developer and Automation Engineer.</h5>
+                        <h2><DroppingWordAnimation /></h2>
+                        
                     </div>
                     <div className="col-sm">
                         <p>Hello, I'm an automation engineer, and self-taught frontend developer.
