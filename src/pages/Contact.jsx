@@ -20,12 +20,12 @@ export const Contact = () => {
 
                 <div className="d-flex justify-content-around mt-5">
 
-                    <a href="https://twitter.com" target="_blank" rel='noreferrer'>
+                    <a href="https://twitter.com/__RNesto" target="_blank" rel='noreferrer'>
                     <BsTwitter className='socials-icons' />
 
                     </a>
 
-                    <a href="https://github.com" target="_blank" rel='noreferrer'>
+                    <a href="https://github.com/ernestocisnero" target="_blank" rel='noreferrer'>
 
                     <BsGithub className='socials-icons' />
                     </a>

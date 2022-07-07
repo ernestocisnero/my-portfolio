@@ -19,7 +19,29 @@ export const Projects = () => {
                     projectTitle={"Example:"}
                     projectDescription={"Example text..."}
                     urlProject={"https://google.com"}
-                    urlRepo={"https://google.com"} />
+                    urlRepo={"https://google.com"} 
+                    />
+                <Card
+                    ImgPath={"/assets/images/coding-screen.jpg"}
+                    projectTitle={"Example:"}
+                    projectDescription={"Example text..."}
+                    urlProject={"https://google.com"}
+                    urlRepo={"https://google.com"} 
+                    />
+                <Card
+                    ImgPath={"/assets/images/coding-screen.jpg"}
+                    projectTitle={"Example:"}
+                    projectDescription={"Example text..."}
+                    urlProject={"https://google.com"}
+                    urlRepo={"https://google.com"} 
+                    />
+                <Card
+                    ImgPath={"/assets/images/coding-screen.jpg"}
+                    projectTitle={"Example:"}
+                    projectDescription={"Example text..."}
+                    urlProject={"https://google.com"}
+                    urlRepo={"https://google.com"} 
+                    />
             </div>
         </>
     )
