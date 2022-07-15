@@ -1,30 +1,31 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
-import { DarkLightMode } from './DarkLightMode';
-import { Datetime } from './Datetime';
+import { NavLink } from "react-router-dom";
 
+import "./style.css";
 
-import './style.css';
+export const Navbar = () => {   
 
-export const Navbar = () => {
-
-    const [darkModeState, setdarkModeState] = useState(false);
-
-    
-    const handleDarkMode = ()=>{
-        setdarkModeState(!darkModeState);
-    }
-    
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark px-3 text-uppercase">
-                <div className="container">
-                    <NavLink className="nav-item nav-link" to="/"><b>Ernesto Cisnero</b></NavLink>
+            <nav className="navbar d-flex flex-nowrap navbar-expand-lg navbar-dark bg-dark px-3 text-uppercase">
+                <div className="container mb-2">
+                    <NavLink className="nav-item nav-link" to="/">
+                        <b>Ernesto Cisnero</b>
+                    </NavLink>
                 </div>
 
-                <Datetime />
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div className="navbar-collapse ">
+                <div className="collapse navbar-collapse" id="navbarToggler">
                     <div className="navbar-nav ">
                         <NavLink className="nav-item nav-link underline" to="/">
                             About
@@ -39,11 +40,7 @@ export const Navbar = () => {
                         </NavLink>
                     </div>
                 </div>
-
-                <div onClick={ handleDarkMode }>
-                    <DarkLightMode darkModeRender={ darkModeState }/>
-                </div>
             </nav>
         </>
-    )
-}
+    );
+};
