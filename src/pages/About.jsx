@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../ui-components'
+
 
 import { TbBrandJavascript } from "react-icons/tb";
 import { GrReactjs } from "react-icons/gr";
@@ -14,7 +14,6 @@ import { DroppingWordAnimation } from '../ui-components/DroppingWordAnimation';
 export const About = () => {
     return (
         <>
-            <Navbar />
 
             <div className="container about-container">
                 <div className="row">

@@ -1,5 +1,5 @@
 
-import { Navbar, SimpleForm } from '../ui-components';
+import { SimpleForm } from '../ui-components';
 import { BsGithub, BsTwitter } from "react-icons/bs";
 
 import './style.css';
@@ -11,8 +11,6 @@ export const Contact = () => {
 
     return (
         <>
-            <Navbar />
-
             <div className="container w-50 mt-5">
                 <div className="row">
                     <SimpleForm />

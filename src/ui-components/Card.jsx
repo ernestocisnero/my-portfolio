@@ -7,7 +7,7 @@ export const Card = ( { ImgPath,projectTitle, projectDescription, urlProject, ur
         <>
 
             <div className="card mt-5 cardComp">
-                <img src={ ImgPath } alt="cardImage" className="card-img-top" />
+                <img className="card-img-top" src={ ImgPath } alt="cardImage" />
                 <div className="card-body">
                     <h5 className='card-title'>{ projectTitle }</h5>
                     <p className="card-text">{ projectDescription }</p>

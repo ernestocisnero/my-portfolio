@@ -11,11 +11,15 @@
 }
 
 body,
-html {
+html{
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--background-color);
     color: var(--font-color);
     overflow-x: hidden;
+}
+
+.App{
+    min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
