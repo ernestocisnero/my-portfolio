@@ -6,7 +6,7 @@ export const Projects = () => {
         <>
             <div className="container d-flex flex-row flex-wrap mt-4">
                 <Card
-                    ImgPath={"/assets/images/weatherApp.png"}
+                    ImgPath={"/assets/images/climate-app.png"}
                     projectTitle={"Weather app:"}
                     projectDescription={"Simple weather app that shows you the main weather conditions of any city."}
                     urlProject={"https://clima-te.netlify.app"}
